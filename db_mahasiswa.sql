@@ -38,27 +38,27 @@ CREATE TABLE `mahasiswa` (
 -- Dumping data for table `mahasiswa`
 --
 
-INSERT INTO `mahasiswa` (`id`, `nim`, `nama`, `jenis_kelamin`) VALUES
-(1, '2203999', 'Amelia Zalfa Julianti', 'Perempuan'),
-(2, '2202292', 'Muhammad Iqbal Fadhilah', 'Laki-laki'),
-(3, '2202346', 'Muhammad Rifky Afandi', 'Laki-laki'),
-(4, '2210239', 'Muhammad Hanif Abdillah', 'Laki-laki'),
-(5, '2202046', 'Nurainun', 'Perempuan'),
-(6, '2205101', 'Kelvin Julian Putra', 'Laki-laki'),
-(7, '2200163', 'Rifanny Lysara Annastasya', 'Perempuan'),
-(8, '2202869', 'Revana Faliha Salma', 'Perempuan'),
-(9, '2209489', 'Rakha Dhifiargo Hariadi', 'Laki-laki'),
-(10, '2203142', 'Roshan Syalwan Nurilham', 'Laki-laki'),
-(11, '2200311', 'Raden Rahman Ismail', 'Laki-laki'),
-(12, '2200978', 'Ratu Syahirah Khairunnisa', 'Perempuan'),
-(13, '2204509', 'Muhammad Fahreza Fauzan', 'Laki-laki'),
-(14, '2205027', 'Muhammad Rizki Revandi', 'Laki-laki'),
-(15, '2203484', 'Arya Aydin Margono', 'Laki-laki'),
-(16, '2200481', 'Marvel Ravindra Dioputra', 'Laki-laki'),
-(17, '2209889', 'Muhammad Fadlul Hafiizh', 'Laki-laki'),
-(18, '2206697', 'Rifa Sania', 'Perempuan'),
-(19, '2207260', 'Imam Chalish Rafidhul Haque', 'Laki-laki'),
-(20, '2204343', 'Meiva Labibah Putri', 'Perempuan');
+INSERT INTO `mahasiswa` (`id`, `nim`, `nama`, `jenis_kelamin`,'keterangan') VALUES
+(1, '2203999', 'Amelia Zalfa Julianti', 'Perempuan','Lulus'),
+(2, '2202292', 'Muhammad Iqbal Fadhilah', 'Laki-laki','Lulus'),
+(3, '2202346', 'Muhammad Rifky Afandi', 'Laki-laki','Lulus'),
+(4, '2210239', 'Muhammad Hanif Abdillah', 'Laki-laki','Lulus'),
+(5, '2202046', 'Nurainun', 'Perempuan','Lulus'),
+(6, '2205101', 'Kelvin Julian Putra', 'Laki-laki','Lulus'),
+(7, '2200163', 'Rifanny Lysara Annastasya', 'Perempuan','Lulus'),
+(8, '2202869', 'Revana Faliha Salma', 'Perempuan','Lulus'),
+(9, '2209489', 'Rakha Dhifiargo Hariadi', 'Laki-laki','Lulus'),
+(10, '2203142', 'Roshan Syalwan Nurilham', 'Laki-laki','Lulus'),
+(11, '2200311', 'Raden Rahman Ismail', 'Laki-laki','Lulus'),
+(12, '2200978', 'Ratu Syahirah Khairunnisa', 'Perempuan','Lulus'),
+(13, '2204509', 'Muhammad Fahreza Fauzan', 'Laki-laki','Lulus'),
+(14, '2205027', 'Muhammad Rizki Revandi', 'Laki-laki','Lulus'),
+(15, '2203484', 'Arya Aydin Margono', 'Laki-laki','Lulus'),
+(16, '2200481', 'Marvel Ravindra Dioputra', 'Laki-laki','Lulus'),
+(17, '2209889', 'Muhammad Fadlul Hafiizh', 'Laki-laki','Lulus'),
+(18, '2206697', 'Rifa Sania', 'Perempuan','Lulus'),
+(19, '2207260', 'Imam Chalish Rafidhul Haque', 'Laki-laki','Lulus'),
+(20, '2204343', 'Meiva Labibah Putri', 'Perempuan','Lulus');
 
 --
 -- Indexes for dumped tables
